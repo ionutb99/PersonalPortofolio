@@ -1,0 +1,288 @@
+#works {
+  margin: 0 auto;
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.worksTitle {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+.worksDesc {
+  font-weight: 300;
+  font-size: 1rem;
+  max-width: 45rem;
+  margin-bottom: 1rem;
+}
+
+.worksImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-width: 65rem;
+  perspective: 1000px;
+  position: relative;
+}
+
+.worksImgContainer.flipped .worksImgFront {
+  transform: rotateY(180deg);
+}
+
+.worksImgFront {
+  object-fit: cover;
+  max-height: 400px;
+  max-width: 350px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: -50px;
+  transform: rotateY(0deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s;
+}
+
+.worksImgFront img {
+  max-width: 400px;
+  max-width: 400px;
+  cursor: pointer;
+}
+
+.worksImgBack {
+  transform: rotateY(180deg);
+  position: absolute;
+  max-height: 400px;
+  max-width: 350px;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+  padding: 20px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.8s;
+}
+
+.flipped .worksImgBack {
+  transform: rotateY(0deg);
+}
+
+.worksBtn {
+  margin: 3rem 0;
+  padding: 0.5rem 2.5rem;
+  border: none;
+  border-radius: 2rem;
+  background: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.seeMoreContent {
+  position: relative;
+  padding: 0.9rem;
+  background: rgb(40, 40, 40);
+  width: 50rem;
+  max-width: 50rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px;
+  margin-bottom: 15px;
+}
+
+.ul {
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.rightIcon {
+  color: #feab55;
+}
+
+.githubIcon {
+  color: #feab55;
+}
+
+.githubIcon:hover {
+  color: rgb(0, 0, 0);
+}
+
+.skillsName {
+  padding: 10px 0px;
+  text-decoration: underline #feab55;
+  color: rgb(201, 247, 141);
+}
+
+.skillsText > b {
+  color: #feab55;
+}
+
+@media screen and (max-width: 785px) {
+  .worksImg {
+    height: 48vw;
+  }
+  .seeMoreContent {
+    width: 53vw;
+    height: 53vw;
+    padding-top: 1.5rem;
+  }
+  .seeMoreContent .ul li .skillsName {
+    font-size: 15px;
+  }
+
+  .seeMoreContent .ul li .skillsText {
+    display: none;
+  }
+  .seeMoreContent .ul li .githubIcon {
+    width: 5%;
+    height: 5%;
+  }
+  .seeMoreContent .ul li .rightIcon {
+    height: 5%;
+    width: 5%;
+  }
+  .worksDesc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .worksImg {
+    height: 45vw;
+  }
+  .seeMoreContent {
+    width: 53vw;
+    height: 53vw;
+    padding: 1.4rem;
+    margin-top: 10px;
+  }
+  .seeMoreContent .ul li .skillsName {
+    font-size: 10px;
+  }
+
+  .seeMoreContent .ul li .skillsText {
+    display: none;
+  }
+  .seeMoreContent .ul li .githubIcon {
+    width: 5%;
+    height: 5%;
+  }
+  .seeMoreContent .ul li .rightIcon {
+    height: 5%;
+    width: 5%;
+  }
+  .worksDesc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .worksImg {
+    height: 42vw;
+  }
+  .seeMoreContent {
+    width: 50vw;
+    height: 50vw;
+    padding: 0.2rem;
+    margin-top: 10px;
+  }
+  .seeMoreContent .ul li .skillsName {
+    font-size: 9px;
+  }
+
+  .seeMoreContent .ul li .skillsText {
+    display: none;
+  }
+  .seeMoreContent .ul li .githubIcon {
+    width: 5%;
+    height: 5%;
+  }
+  .seeMoreContent .ul li .rightIcon {
+    height: 5%;
+    width: 5%;
+  }
+  .worksDesc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .worksImg {
+    height: 48vw;
+  }
+  .seeMoreContent {
+    width: 58vw;
+    height: 58vw;
+    padding: 0;
+  }
+  .seeMoreContent .ul li .skillsName {
+    font-size: 10px;
+  }
+
+  .seeMoreContent .ul li .skillsText {
+    display: none;
+  }
+  .seeMoreContent .ul li .githubIcon {
+    width: 5%;
+    height: 5%;
+  }
+  .seeMoreContent .ul li .rightIcon {
+    height: 5%;
+    width: 5%;
+  }
+  .worksDesc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .worksImg {
+    height: 40vw;
+  }
+  .seeMoreContent {
+    width: 51vw;
+    height: 53vw;
+    padding: 0.1rem;
+  }
+  .seeMoreContent .ul li .skillsName {
+    font-size: 7px;
+    position: relative;
+    padding-top: 25px;
+    left: -50px;
+  }
+
+  .seeMoreContent .ul li .skillsText {
+    display: none;
+  }
+  .seeMoreContent .ul li .githubIcon {
+    width: 3%;
+    height: 3%;
+    position: absolute;
+    margin-top: -8px;
+    right: 80px;
+  }
+  .seeMoreContent .ul li .rightIcon {
+    display: none;
+  }
+  .worksDesc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 210px) {
+  .worksImg {
+    display: none;
+  }
+  .seeMoreContent {
+    display: none;
+  }
+}

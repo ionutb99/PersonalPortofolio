@@ -1,0 +1,57 @@
+.navbar {
+  background: rgb(30, 30, 30);
+  height: 5rem;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+ 
+.logo {
+  object-fit: cover;
+  height: 3rem;
+  width: 4rem;
+}
+
+.logo2 {
+  object-fit: cover;
+  height: 3rem;
+  width: 4rem;
+  cursor: pointer;
+}
+
+.desktopMenuCertifications {
+  text-align: center;
+  font-size: 25px;
+}
+
+.certifications {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.certifications img {
+  width: 50%;
+  margin: 20px;
+  border-radius: 20px;
+  transition: width 0.5s ease;
+}
+
+.certifications img:hover {
+    width: 80%;
+}
+
