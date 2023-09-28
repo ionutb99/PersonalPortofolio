@@ -11,10 +11,12 @@ export const Certifications = () => {
   const navigate = useNavigate();
 
   const handleClickHome = () => {
-    window.scrollTo(0, 0);
-    navigate("/PersonalPortofolio");
-  }
- 
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+      navigate("/PersonalPortofolio");
+    }, 500);
+  };
+
   return (
     <div>
       <nav className="navbar">
@@ -31,9 +33,7 @@ export const Certifications = () => {
         <img src={JavaScript} alt="" />
         <img src={Java1} alt="" />
         <img src={Java2} alt="" />
-
       </div>
     </div>
   );
 };
- 

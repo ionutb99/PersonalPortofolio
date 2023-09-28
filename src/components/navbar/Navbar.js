@@ -16,7 +16,7 @@ export const Navbar = () => {
           activeClass="active"
           to="intro"
           spy={true}
-          smooth={true}
+          smooth={true} 
           offset={-100}
           duration={500}
           className="desktopMenuListItem"

@@ -9,15 +9,18 @@ export const Skills = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    window.scrollTo(0, 0);
-    navigate('/certifications');
-    }
- 
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+      navigate("/certifications");
+    }, 500);
+  };
+
   return (
     <section id="skills">
       <span className="skillTitle">My Skills</span>
       <span className="skillDesc">
-      Proficient in both frontend and backend development, with expertise in creating responsive, interactive, and efficient web applications.
+        Proficient in both frontend and backend development, with expertise in
+        creating responsive, interactive, and efficient web applications.
       </span>
       <div className="skillBars">
         <div className="skillBar">
@@ -37,12 +40,14 @@ export const Skills = () => {
         <div className="skillBar">
           <img src={LanguagesImg} alt="AppDesign" className="skillBarImg" />
           <div className="skillBarText">
-          <h2> Languages</h2>
+            <h2> Languages</h2>
             <p>JavaScript, HTML, CSS, Java[beginner]</p>
           </div>
         </div>
       </div>
-      <button onClick={handleClick} type="button" className="worksBtn">Certifications</button>
+      <button onClick={handleClick} type="button" className="worksBtn">
+        Certifications
+      </button>
     </section>
   );
 };
