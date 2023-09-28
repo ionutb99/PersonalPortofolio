@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/PersonalPortofolio/static/css/main.b16bf0fe.css",
+    "main.js": "/PersonalPortofolio/static/js/main.14c0e0de.js",
+    "static/media/img8.png": "/PersonalPortofolio/static/media/img8.95c7220c3e0e1b86fc3f.png",
+    "static/media/img1.png": "/PersonalPortofolio/static/media/img1.f596f7d78830fd286e25.png",
+    "static/media/BSocial.PNG": "/PersonalPortofolio/static/media/BSocial.f986778787d13b9953c0.PNG",
+    "static/media/img3.png": "/PersonalPortofolio/static/media/img3.fad37a523ce5be0c214b.png",
+    "static/media/img6.png": "/PersonalPortofolio/static/media/img6.b062eb97cebc98759c3f.png",
+    "static/media/CV.pdf": "/PersonalPortofolio/static/media/CV.6d9bb4d17d60fdc32333.pdf",
+    "static/media/img7.png": "/PersonalPortofolio/static/media/img7.cd628273d3677a8bead6.png",
+    "static/media/img5.png": "/PersonalPortofolio/static/media/img5.219a4142922b6a2e4be2.png",
+    "static/media/JavaScript.PNG": "/PersonalPortofolio/static/media/JavaScript.6b05eaf74bea7f081029.PNG",
+    "static/media/Messages.PNG": "/PersonalPortofolio/static/media/Messages.e6e966cbb47984b94115.PNG",
+    "static/media/UltimateJava2.PNG": "/PersonalPortofolio/static/media/UltimateJava2.c5a8b91f2e362d13fdd4.PNG",
+    "static/media/UltimateJava1.PNG": "/PersonalPortofolio/static/media/UltimateJava1.b41234207cd236d28f6d.PNG",
+    "static/media/backHome.png": "/PersonalPortofolio/static/media/backHome.6e7f9b5e4d62a3b7627a.png",
+    "static/media/image22.png": "/PersonalPortofolio/static/media/image22.b133b0224ab29d597891.png",
+    "static/media/facebook.webp": "/PersonalPortofolio/static/media/facebook.18e82e390341ff4f42b0.webp",
+    "static/media/ui-design.png": "/PersonalPortofolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
+    "static/media/linkedin.webp": "/PersonalPortofolio/static/media/linkedin.4c11b4693dd4eebca5be.webp",
+    "index.html": "/PersonalPortofolio/index.html",
+    "main.b16bf0fe.css.map": "/PersonalPortofolio/static/css/main.b16bf0fe.css.map",
+    "main.14c0e0de.js.map": "/PersonalPortofolio/static/js/main.14c0e0de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b16bf0fe.css",
+    "static/js/main.14c0e0de.js"
+  ]
+}
