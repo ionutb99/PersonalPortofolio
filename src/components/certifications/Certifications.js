@@ -3,6 +3,7 @@ import "./certifications.css";
 import logo from "../../assets/logo-page.png";
 import backHome from "../../assets/backHome.png";
 import JavaScript from "../../assets/JavaScript.PNG";
+import HTMLCertificate from "../../assets/HTML.PNG";
 import Java1 from "../../assets/UltimateJava1.PNG";
 import Java2 from "../../assets/UltimateJava2.PNG";
 import { useNavigate } from "react-router-dom";
@@ -31,6 +32,7 @@ export const Certifications = () => {
       </nav>
       <div className="certifications">
         <img src={JavaScript} alt="" />
+        <img src={HTMLCertificate} alt="" />
         <img src={Java1} alt="" />
         <img src={Java2} alt="" />
       </div>

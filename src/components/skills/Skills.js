@@ -3,6 +3,7 @@ import "./skills.css";
 import LanguagesImg from "../../assets/ui-design.png";
 import WebDesign from "../../assets/website-design.png";
 import BackendImg from "../../assets/app-design.png";
+import FrameworksPNG from "../../assets/frameworks.png";
 import { useNavigate } from "react-router-dom";
 
 export const Skills = () => {
@@ -42,6 +43,13 @@ export const Skills = () => {
           <div className="skillBarText">
             <h2> Languages</h2>
             <p>JavaScript, HTML, CSS, Java[beginner]</p>
+          </div>
+        </div>
+        <div className="skillBar">
+          <img src={FrameworksPNG} alt="AppDesign" className="skillBarImg" />
+          <div className="skillBarText">
+            <h2> Frameworks</h2>
+            <p>React, React Native</p>
           </div>
         </div>
       </div>

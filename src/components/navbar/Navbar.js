@@ -29,7 +29,7 @@ export const Navbar = () => {
           to="skills"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={-35}
           duration={500}
           className="desktopMenuListItem"
         >
@@ -136,7 +136,7 @@ export const Navbar = () => {
           to="working"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={-30}
           duration={500}
           className="listItem"
           onClick={() => setShowMenu(false)}
@@ -149,7 +149,7 @@ export const Navbar = () => {
           to="contact"
           spy={true}
           smooth={true}
-          offset={-180}
+          offset={-120}
           duration={500}
           className="listItem"
           onClick={() => setShowMenu(false)}
