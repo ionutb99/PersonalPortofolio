@@ -28,18 +28,6 @@ export const projects = [
     img: img1,
   },
   {
-    name: "CryptoCurrency Website",
-    skills: "JavaScript, HTML, CSS, DOM,  Fetch API ",
-    github: "https://github.com/ionutb99/CryptoCurrencyWeb",
-    img: img4,
-  },
-  {
-    name: "Full-Stack MovieDB",
-    skills: "JAVA, SpringBoot, JavaScript, HTML, CSS, React, axios ",
-    github: "https://github.com/ionutb99/FullStackMovieDB",
-    img: img5,
-  },
-  {
     name: "Full Stack BlogWebsite",
     skills: "JavaScript, HTML, CSS, React, MySQL ,Express",
     github: "https://github.com/ionutb99/FullStackBlog",
